@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+
+
+if (confirm("Podejmij decyzję!")) {
+    var wys = parseInt(prompt("Podaj wysokość", "Wysokość prostokąta"));
+            document.write("Twoja wysokość: "+wys);
+
+            document.write("<br>");
+
+            var szer = parseInt(prompt("Podaj szerokość", "Szerokość prostokąta"));
+            document.write("Twoja szerokość: "+szer);
+
+            document.write("<br>");
+
+            for (x = 1; x <= wys; ++x){
+                
+
+                for(y = 1; y <= szer; ++y) {
+        document.write("*");
+    }
+    document.write("<br>");
+
+            }
+        
+
+   } else {
+    var pasek = parseInt(prompt("Podaj długość paska", "Długość paska"));
+            document.write("Wybrana długość: "+pasek);
+            document.write("<br>");
+
+            for (z = 1; z <= pasek; ++z){
+                document.write("*");
+        }
+ } 
+
+            
+
+            
+       
+
+    
+            
+    
+        </script>
+    </body>
+</html>
